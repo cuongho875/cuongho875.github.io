@@ -1,0 +1,66 @@
+/* Mobile */
+@media (max-width: 1023px){
+    .btn {
+        padding: 15px 16px;
+        width: 100%;
+
+    }
+    input.control-form {
+        padding: 15px;
+    }
+}
+@media (max-width: 739px){
+    #header {
+        overflow: hidden;
+    }
+    #nav, .search-btn {
+        display: none;
+    }
+    .bars-nav-btn {
+        display:inline-block;
+    }
+    #slider .text-content {
+        display: none;
+    }
+    .col-third {
+        width: 100%;
+        padding-bottom: 16px;
+    }
+    .col-half {
+        width: 100%;
+    }
+    .row {
+        margin-top: 16px;
+    }
+    input.control-form {
+        margin-bottom: 0;
+    }
+    .tour-section {
+        background-color: #000;
+        padding-bottom: 273%;
+    }
+    #nav {
+        display: block;
+    }
+
+    #nav li {
+        display: block;
+    }
+    #nav li:first-child {
+        display: inline-block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #424242;
+        padding: 5px 35px;
+    }
+    #nav .subnav a {
+        color: #ccc;
+    }
+    #nav .subnav li:first-child {
+        display: block;
+    }
+
+
+}
+/*End Mobile */
